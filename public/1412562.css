@@ -1,0 +1,142 @@
+html {
+	/*background: url("images/space-wallpaper-33.jpg") no-repeat center center fixed; */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: lighter;
+	letter-spacing: 0.5px;
+}
+
+.header ul {
+	font-size: 16px;
+	list-style-type: none;
+}
+.header ul li{
+	float: left;
+	line-height: 30px;
+	margin-left: 10px;
+}
+.header ul li a{
+	display: block;
+	text-decoration: none;
+}
+.header a: hover{
+	color: blue;
+	text-decoration: underline;
+}
+/*////////////////////////////////////////////////////////////////////*/
+#ava-bg{
+	background-image: url('images/1412562-bg.jpg');
+	height: 330px
+}
+#avatar{
+
+	padding-left: 20px;
+}
+/*///////////////////////////////////////////////////////////////////*/
+
+.animate {
+    -webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+/*=============== Home-team ===============*/
+
+.home-doctors {
+  text-align: center;
+  padding: 70px 0 80px;
+  background: #f0f5f6;
+}
+
+.home-doctors h2 {
+    font-weight: normal;
+}
+
+.home-doctors .common-doctor {
+  background-color: #fff;
+}
+.home-doctors .common-doctor figure {
+  overflow: hidden;
+  width: 100%;
+	height: 196px;
+}
+
+.home-doctors img {
+	width: 100%;
+	height: auto;
+	margin-top: -6em;
+}
+
+.home-doctors .common-doctor h5 {
+  margin: 0 0 7px;
+  font-size: 18px;
+	font-weight: 700;
+	color: #3a3c41;
+}
+.home-doctors .common-doctor .for-border {
+  margin-bottom: 20px;
+}
+.home-doctors .common-doctor .text-content {
+  padding: 19px 14px 13px;
+}
+.home-doctors.doctors-var-two {
+  text-align: left;
+  background-color: #fff;
+}
+.home-doctors.doctors-var-two .slogan-section {
+  text-align: left;
+}
+.home-doctors.doctors-var-two .common-doctor {
+  background-color: transparent;
+}
+.home-doctors.doctors-var-two .common-doctor .for-border {
+  display: none;
+}
+.home-doctors.doctors-var-two .common-doctor .text-content {
+  padding: 20px 0 20px;
+}
+.home-doctors.doctors-var-two .text-center {
+  text-align: left;
+}
+
+.slogan-section {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.home-doctors .common-doctor .for-border {
+	margin-bottom: 20px;
+}
+
+.for-border {
+	height: 11px;
+	width: 100%;
+	background: transparent url(http://omarhabash.com/nova/wp-content/uploads/2014/08/feature-border.png) center center no-repeat;
+	border: none;
+}
+
+.home-doctors .common-doctor h5  {
+	color: #008fd5;
+	font-weight: bold;
+	/*font-size: 14px;*/
+	}
+
+.home-doctors .common-doctor ul{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	margin-top: -28px;
+	text-align: center;
+	margin-top: 10em;
+	opacity: 0;
+	z-index: 1;
+}
+
+
+

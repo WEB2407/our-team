@@ -1,0 +1,45 @@
+#full{
+	background-image: url(../public/images/background.png);
+}
+
+#head a{
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+	font-family: arial;
+}
+	#head a:hover {
+		color: red;
+		font-weight: normal;
+	}
+
+img {
+	border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	width: 150px;
+	height: 150px;
+	padding-left: 50%;
+	padding-right: 50%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#myself {
+	padding-left: 40%;
+}
+
+h1 {
+	color:#5D2A2A;
+}
+h2 {
+	color:#5D2A2A;	
+}
+
+#skill{
+	padding-left: 49%;
+}
+#language{
+	padding-left: 49%;
+}

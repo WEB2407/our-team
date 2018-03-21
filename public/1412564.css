@@ -1,0 +1,89 @@
+
+.container {
+    margin: 0 auto !important;
+    width: 50%;
+}
+
+.card {
+    padding-top: 20px;
+    margin: 10px 0 20px 0;
+    background-color: rgba(214, 224, 226, 0.2);
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(214, 224, 226, 0.2);
+}
+
+.card.hovercard .cardheader {
+    background-image: url('images/img-1.jpg');
+    background-size: cover;
+    height: 260px;
+}
+
+.card.hovercard .avatar {
+    position: relative;
+    top: -80px;
+    margin-bottom: -60px;
+}
+
+.card.hovercard .avatar img {
+    width: 160px;
+    height: 160px;
+    max-width: 160px;
+    max-height: 160px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 6px solid rgba(255,255,255,0.5);
+}
+
+.card.hovercard .info {
+    padding: 4px 8px 10px;
+}
+
+.card.hovercard .info .title {
+    margin-top: -25px;
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 1;
+    color: #262626;
+    vertical-align: middle;
+}
+
+.card.hovercard .info .profile-usermenu {
+  margin-top: 15px;
+}
+
+.card.hovercard .info .desc {
+    overflow: hidden;
+    font-size: 15px;
+    line-height: 20px;
+    color: #737373;
+    text-overflow: ellipsis;
+    text-align: left !important;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card.hovercard .bottom {
+    padding: 0 20px;
+    margin-top: 8px;
+    margin-bottom: 17px;
+}
+
+.btn{ border-radius: 50%; width:32px; height:32px;  }
